@@ -7,8 +7,9 @@ Operadores de comparación (==, ===, !=, <,>, =>, <=)
 Operadores logicos(and, or), operadores de incremento a++ a--
 */
 
-
-
+$nombre = "Ricardo";
+$num1 = 4;
+$num2 = 5;
 $numero = 1; 
 $arreglo = [1,2,3];
 $resultado = $numero + $arreglo[2];
@@ -30,4 +31,12 @@ if ($edad < 18) {
 }
 
 echo "<h3 style='text-align:center;'>Soy html dentro de PHP5 con CSS3<h3>";
+
+echo $num2%$num1 . "<br>";
+
+if ($nombre == "Gerardo") {
+	echo "Hola ". $nombre . "<br>";
+}else{
+	echo "Hola extraño<br>";
+}
 ?>
